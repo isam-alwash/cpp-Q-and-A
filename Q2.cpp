@@ -1,18 +1,20 @@
 /*
-Calculate and print the avarage element in the number array.
+Print the upper right triangle        |  1  |# 3 #|# 5 #|# 7 #|
+                                      |  9  |  10 |# 3 #|# 2 #|
+                                      |  15 |  10 |  27 |# 30#|
+                                      | 100 |  90 |  80 |  70 |
 */
 #include<iostream>
 using namespace std;
 int main(){
-    int a[10];
-    int c = 0 , avg = 0 , sum = 0;
-
-    for(int i = 0 ; i < 10 ; i++){
-        cin>>a[i];
-       sum += a[i];
-       c++;
+    int a[4][4]{{  1  ,  3  ,  5  ,  7  },
+                {  9  ,  10 ,  3  ,  2  },
+                {  15 ,  10 ,  27 ,  30 },
+                { 100 ,  90 ,  80 ,  70 }};
+    for(int i = 0 ; i < 4 ; i ++){
+        for(int j = 3 ; j > i ; j--)
+        cout<<" "<<a[i][j];
+        cout<<"\n";
     }
-    avg = sum / c;
-    cout<<avg;
-        return 0;
+ return 0 ;
 }
