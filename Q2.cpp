@@ -1,5 +1,5 @@
 /*
-Print the upper right triangle        |  1  |# 3 #|# 5 #|# 7 #|
+Print the upper triangle              |  1  |# 3 #|# 5 #|# 7 #|
                                       |  9  |  10 |# 3 #|# 2 #|
                                       |  15 |  10 |  27 |# 30#|
                                       | 100 |  90 |  80 |  70 |
