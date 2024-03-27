@@ -11,7 +11,7 @@ int main(){
                 {  9  ,  10 ,  3  ,  2  },
                 {  15 ,  10 ,  27 ,  30 },
                 { 100 ,  90 ,  80 ,  70 }};
-    for(int i = 0 ; i < 4 ; i ++){
+    for(int i = 0 ; i < 4 ; i++){
         for(int j = 3 ; j > i ; j--)
         cout<<" "<<a[i][j];
         cout<<"\n";

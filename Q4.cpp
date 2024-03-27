@@ -1,5 +1,5 @@
 /*
-find the summaiton of the seconda     |  1  |  3  |  5  |# 7 #|
+find the summaiton of the secondary   |  1  |  3  |  5  |# 7 #|
  diagonal.                            |  9  |  10 |# 3 #|  2  |
                                       |  15 |# 10#|  27 |  30 |
                                       |#100#|  90 |  80 |  70 |
